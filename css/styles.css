@@ -79,7 +79,7 @@ body {
     padding-top: 50px;
     padding-left: 100px;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     grid-template-areas:
     "data1      data2       data3"
     "data4      data5       data6"
@@ -339,34 +339,31 @@ form {
 }
 
 #footerindex {
-    background-color: black; /* Set the background color to black */
-    color: white; /* Set the text color to white or another suitable color for contrast */
-    padding: 50px; /* Add some padding for content within the footer */
-    position: absolute; /* Position the footer absolutely */
-    bottom: 0; /* Position it at the bottom of the page */
-    width: 100%; /* Make it take up the full width */
+    background-color: black;
+    color: white;
+    padding: 50px;
+    position: absolute;
     bottom: -500px;
+    width: 100%;
 }
 
 #footerindex2 {
-    background-color: black; /* Set the background color to black */
-    color: white; /* Set the text color to white or another suitable color for contrast */
-    padding: 50px; /* Add some padding for content within the footer */
-    position: absolute; /* Position the footer absolutely */
-    bottom: 0; /* Position it at the bottom of the page */
-    width: 100%; /* Make it take up the full width */
-    bottom: -2450px;
-}
-#footerindex3 {
-    background-color: black; /* Set the background color to black */
-    color: white; /* Set the text color to white or another suitable color for contrast */
-    padding: 50px; /* Add some padding for content within the footer */
-    position: absolute; /* Position the footer absolutely */
-    bottom: 0; /* Position it at the bottom of the page */
-    width: 100%; /* Make it take up the full width */
-    bottom: -2450px;
+    background-color: black;
+    color: white;
+    padding: 50px;
+    position: absolute;
+    bottom: -1600px;
+    width: 100%;
 }
 
+#footerindex3 {
+    background-color: black;
+    color: white;
+    padding: 50px;
+    position: absolute;
+    bottom: -1200px;
+    width: 100%;
+}
 
 /* hide horizontal scrolling */
 html, body {
