@@ -505,8 +505,13 @@ html, body {
     }
 }
 @media screen and (max-width: 300px) {
-   
+    body{    background-color:purple ;
+   }
+
   }
   @media screen and (min-width: 780px) and (max-width: 1050px) {
+    body{
+        background-color: peachpuff;
+    }
     
   }
