@@ -515,3 +515,43 @@ html, body {
     }
     
   }
+  @media screen and (max-width: 700px) {
+    body {
+        background-color: blue;
+    }
+    section {
+        width: 100%; /* Expand sections to full width */
+        margin-right: 0; /* Remove right margin */
+    }
+    img {
+        width: 100%; /* Make images full-width */
+        height: auto; /* Maintain aspect ratio */
+    }
+    nav ul {
+        text-align: center; /* Center align the navigation links */
+    }
+    nav ul li {
+        display: block; /* Change list items to a block layout */
+        margin-right: 0; /* Remove margin between list items */
+        margin-bottom: 10px; /* Add spacing between list items */
+    }
+    nav {
+        padding: 10px; /* Reduce padding in the navigation bar */
+    }
+}
+
+/* Add CSS rules for screens with a maximum width of 300px */
+@media screen and (max-width: 300px) {
+    body {
+        background-color: purple;
+    }
+    /* Adjust other styles as needed for this screen size */
+}
+
+/* Add CSS rules for screens between 780px and 1050px */
+@media screen and (min-width: 780px) and (max-width: 1050px) {
+    body {
+        background-color: peachpuff;
+    }
+    /* Adjust other styles as needed for this screen size */
+}
